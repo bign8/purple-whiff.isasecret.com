@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+	Author: Reed Baker
+	Twitter: @ReedBaker2
+
+	Developer + Designer: Nathan Woods
+	Twitter: @bignatewoods
+
+# THANKS
+
+    GitHub: Making hosting so eacy
+    ChangeIP: Makeing the domain free
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Bootstrap
