@@ -4,20 +4,33 @@
 	<meta charset="utf-8">
 	<title>Page Not Found</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<style>
 		* { line-height: 1.5; margin: 0; }
 		html { color: #888; font-family: sans-serif; text-align: center; }
-		body { left: 50%; margin: -43px 0 0 -150px; position: absolute; top: 50%; width: 300px; }
+		div { width: 420px; margin: -43px 0 0 -210px; }
+		svg text { font-family: Verdana; font-size: 500px; fill: #DDD; text-anchor: middle; }
 		h1 { color: #555; font-size: 2em; font-weight: 400; }
 		p { line-height: 1.2; }
-		@media only screen and (max-width: 270px) {
-			body { margin: 10px auto; position: static; width: 95%; }
+		.center { position: absolute; top: 50%; left: 50%; }
+		@media only screen and (max-width: 400px) {
+			div { margin: 10px auto; position: static; width: 95%; }
 			h1 { font-size: 1.5em; }
 		}
+		@media only screen and (min-width: 1000px) {
+			svg { width: 1000px; height: 500px; margin: -250px 0 0 -500px; z-index: -1; }
+			body svg { display: block !important; }
+		}
+		body svg { display: none; }
 	</style>
 </head>
 <body>
-	<h1>Page Not Found</h1>
-	<p>Sorry, but the page you were trying to view does not exist.</p>
+	<div class="center">
+		<h1>Page Not Found</h1>
+		<p>Sorry, but the page you were trying to view does not exist.</p>
+	</div>
+	<svg class="center" width="1000" height="500">
+		<text x="50%" y="50%" dy=".35em">404</text>
+	</svg>
 </body>
 </html>
