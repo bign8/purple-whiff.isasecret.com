@@ -1,2 +1,9 @@
-body { background-color: purple; }
-.container { background-color: white; }
+body {
+	background-color: purple;
+	background: #800080 url('img/bkg.png') repeat fixed center;
+}
+.container {
+	background-color: white;
+	box-shadow: #000 0 0 20px;
+	margin: 20px auto;
+}

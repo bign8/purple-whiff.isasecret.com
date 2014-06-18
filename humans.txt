@@ -10,8 +10,9 @@
 
 # THANKS
 
-    GitHub: Making hosting so eacy
-    ChangeIP: Makeing the domain free
+    GitHub: Making hosting so easy <https://github.com/>
+    ChangeIP: Makeing the domain free <http://www.changeip.com/>
+    BGP: Great background <http://bgpatterns.com/>
 
 # TECHNOLOGY COLOPHON
 
