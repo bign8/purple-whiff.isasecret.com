@@ -5,7 +5,7 @@
 	Author: Reed Baker
 	Twitter: @ReedBaker2
 
-	Developer + Designer: Nathan Woods
+	Developer, Designer, Editor: Nathan Woods
 	Twitter: @bignatewoods
 
 # THANKS
