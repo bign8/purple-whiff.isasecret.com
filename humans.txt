@@ -1,4 +1,4 @@
-# humanstxt.org/
+# humanstxt.org
 # The humans responsible & technology colophon
 
 # TEAM
@@ -9,12 +9,10 @@
 	Twitter: @bignatewoods
 
 # THANKS
-
-    GitHub: Making hosting so easy <https://github.com/>
-    ChangeIP: Makeing the domain free <http://www.changeip.com/>
-    BGP: Great background <http://bgpatterns.com/>
+	GitHub: Making hosting so easy <https://github.com/>
+	ChangeIP: Makeing the domain free <http://www.changeip.com/>
+	BGP: Great background <http://bgpatterns.com/>
 
 # TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    Bootstrap
+	HTML5, CSS3
+	Bootstrap
