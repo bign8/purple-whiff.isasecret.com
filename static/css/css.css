@@ -1,6 +1,6 @@
 body {
 	background-color: purple;
-	background: #800080 url(/img/bkg.png) repeat fixed center;
+	background: #800080 url(/static/img/bkg.png) repeat fixed center;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
