@@ -14,34 +14,62 @@
 	<body>
 
 		<div class="container">
-			<header class="page-header">
-				<h1>Purple Whiff <small>A short story by <a href="https://twitter.com/ReedBaker2" target="_blank">Reed Baker</a></small></h1>
-				<!--[if lt IE 8]>
-					<p class="browsehappy">
-						You are using an <strong>outdated</strong> browser.
-						Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
-					</p>
-				<![endif]-->
+			<header class="page-header text-center">
+				<h1>
+					Purple Whiff<br/>
+					<small style="display:none">This is a mirage</small>
+					<small>Reality is merely an illusion</small>
+				</h1>
 			</header>
 
+			<!--[if lt IE 8]>
 			<div class="row">
-				<div id="story" class="col-xs-12 story">
-					<p class="lead">You have stumbled upon one of the best stories ever told.</p>
-					<p>To embark on this journey, you must have the courage and perseverance.  Only peer behind the covers if you are ready to read one of the best stories ever told.</p>
-
-					<div class="col-xs-6 col-xs-offset-3">
-						<button type="button" id="ready" class="btn btn-primary btn-lg btn-block" data-loading-text="Loading..." autocomplete="off">I'm Ready</button>
+				<div class="col-xs-12">
+					<div class="alert alert-danger" role="alert">
+						<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+						<span class="sr-only">Error:</span>
+						You are using an <strong>outdated</strong> browser.
+						Please <a href="http://browsehappy.com/" class="alert-link">upgrade your browser</a> to improve your experience.
 					</div>
+				</div>
+			</div>
+			<![endif]-->
+
+			<div id="preamble" class="row">
+				<div class="col-xs-12">
+					<p class="lead">You&#8217;ve stumbled upon one of the greatest stories ever told.  This tale has been passed down by generations, for those who have the perseverance to receive the legend.  The journey of the Whiff is meant to be shared amongst all people; yet the destination is meaningless if the treasure is merely revealed to other wanders.</p>
+					<p>The Purple Whiff experience has been referred to as an adventure of mind and spirit  To embark on this journey, you must have both courage and perseverance, for the path is littered with those not worthy of the Whiff.  Stories such as &#8220;Purple Whiff&#8221; are not for the feeble minded and faint of heart.  This tale is meant for those who can withstand the pressures of impatience.  Only proceed if you exemplify these qualities; Otherwise, step aside and make way for the more capable.</p>
+					<p>Find yourself before embarking on this expedition.  While the path is long and strenuous; these trails are yours to conquer alone.  None shall offer a light in the darkness. Those who share the secrets of their expedition will be forbid from progressing.  Those who provide shortcuts for their brethren: banished.  The path of the Whiff can only be traveled through intellect and competence; those who attempt to circumvent the journey will find their path occluded by doubt and the destination meaningless.</p>
+					<p>Welcome to the legend of Purple Whiff.</p>
+					<div class="col-xs-6 col-xs-offset-3">
+						<button type="button" id="ready" class="btn btn-primary btn-lg btn-block" data-loading-text="Loading..." autocomplete="off">I&#8217;m Ready</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" style="display:none;">
+				<div class="col-xs-12">
+					<div id="story"></div>
+					<nav id="nav">
+						<ul class="pager">
+							<li class="previous disabled">
+								<a href="#"><span aria-hidden="true">&larr;</span> Older</a>
+							</li>
+							<li class="next">
+								<a href="#">Newer <span aria-hidden="true">&rarr;</span></a>
+							</li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 
 			<footer class="text-muted row">
 				<div class="col-xs-12">
 					<hr/>
-					<p class="pull-right">
+					<!-- <p class="pull-right">
 						Produced by <a href="https://twitter.com/bignatewoods" target="_blank">N8</a>
-					</p>
-					<p>
+					</p> -->
+					<p class="pull-right">
 						Copyright &copy; 2009-<script>document.write(new Date().getFullYear())</script>
 						<a href="https://twitter.com/ReedBaker2" target="_blank">Reed Baker</a>,
 						<a href="https://twitter.com/bignatewoods" target="_blank">N8</a>

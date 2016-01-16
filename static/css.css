@@ -10,6 +10,9 @@ body {
 	margin: 20px auto;
 	/*background: #FFFFFF url(/img/purple-drop.jpg) no-repeat top right;*/
 }
+.konami .container {
+	box-shadow: #FFD700 0 0 20px;
+}
 @media (min-width: 768px) {
 	.container {
 		max-width: 730px;
